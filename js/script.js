@@ -140,7 +140,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', showModalByScrooll);
 
-    // Использую классы для карточек
+    // I use classes for cards
 
     class MenuCard {
         constructor(src, alt, title, descr, price, parentSelector, ...classes) {
